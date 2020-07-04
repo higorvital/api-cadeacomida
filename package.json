@@ -2,7 +2,7 @@
   "name": "api-cadeacomida",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
     "knex:seed": "knex --knexfile knexfile.ts seed:run",
