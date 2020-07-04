@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "yarn":"1.x"
+  },
   "scripts": {
     "start": "ts-node-dev src/server.ts",
     "knex:seed": "knex --knexfile knexfile.ts seed:run",
