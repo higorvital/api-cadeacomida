@@ -5,8 +5,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "queue": "nodemon src/queue.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "migrate": "sequelize db:migrate",
+    "seed": "yarn sequelize-cli db:seed:all"
+
   },
   "dependencies": {
     "@sentry/node": "5.15.2",
